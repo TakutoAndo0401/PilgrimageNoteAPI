@@ -14,6 +14,7 @@ class ArticleTableSeeder extends Seeder
     {
         DB::table('articles')->insert([
             [
+                'index'=>1,
                 'image'=>'https://pilgrimage-note-images.s3-ap-northeast-1.amazonaws.com/EIVi2hOXYAEyylZ.jpeg',
                 'title'=>'のぞき坂',
                 'date'=>'2019年11月1日',
@@ -22,6 +23,7 @@ class ArticleTableSeeder extends Seeder
                 'place2'=>'',
             ],
             [
+                'index'=>2,
                 'image'=>'https://pilgrimage-note-images.s3-ap-northeast-1.amazonaws.com/saekano2.jpeg',
                 'title'=>'都電荒川線学習院下駅踏切',
                 'date'=>'2019年11月1日',
@@ -30,6 +32,7 @@ class ArticleTableSeeder extends Seeder
                 'place2'=>'',
             ],
             [
+                'index'=>3,
                 'image'=>'https://pilgrimage-note-images.s3-ap-northeast-1.amazonaws.com/IMG_2536.jpg',
                 'title'=>'都電荒川線面影橋駅',
                 'date'=>'2019年11月1日',
@@ -38,6 +41,7 @@ class ArticleTableSeeder extends Seeder
                 'place2'=>'',
             ],
             [
+                'index'=>4,
                 'image'=>'https://pilgrimage-note-images.s3-ap-northeast-1.amazonaws.com/IMG_2430.jpg',
                 'title'=>'京都駅',
                 'date'=>'2019年5月3日',
@@ -46,6 +50,7 @@ class ArticleTableSeeder extends Seeder
                 'place2'=>'',
             ],
             [
+                'index'=>5,
                 'image'=>'https://pilgrimage-note-images.s3-ap-northeast-1.amazonaws.com/IMG_6099.jpg',
                 'title'=>'大吉山',
                 'date'=>'2018年7月26日',
@@ -54,6 +59,7 @@ class ArticleTableSeeder extends Seeder
                 'place2'=>'JR奈良線宇治駅から徒歩30分',
             ],
             [
+                'index'=>6,
                 'image'=>'https://pilgrimage-note-images.s3-ap-northeast-1.amazonaws.com/IMG_4816.jpg',
                 'title'=>'祇園白川',
                 'date'=>'2019年4月2日',
@@ -62,6 +68,7 @@ class ArticleTableSeeder extends Seeder
                 'place2'=>'',
             ],
             [
+                'index'=>7,
                 'image'=>'https://pilgrimage-note-images.s3-ap-northeast-1.amazonaws.com/IMG_6328.jpg',
                 'title'=>'産寧坂（三年坂）',
                 'date'=>'2018年7月26日',
@@ -70,6 +77,7 @@ class ArticleTableSeeder extends Seeder
                 'place2'=>'',
             ],
             [
+                'index'=>8,
                 'image'=>'https://pilgrimage-note-images.s3-ap-northeast-1.amazonaws.com/IMG_8678.jpg',
                 'title'=>'花見小路通',
                 'date'=>'2018年7月26日',
@@ -78,6 +86,7 @@ class ArticleTableSeeder extends Seeder
                 'place2'=>'',
             ],
             [
+                'index'=>9,
                 'image'=>'https://pilgrimage-note-images.s3-ap-northeast-1.amazonaws.com/IMG_8676.jpg',
                 'title'=>'七里ヶ浜駅',
                 'date'=>'2019年3月5日',
