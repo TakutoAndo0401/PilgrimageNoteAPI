@@ -10,11 +10,11 @@ class ArticleController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return Article[]|\Illuminate\Database\Eloquent\Collection
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function index()
     {
-        return Article::all();
+        return Article::Search(request('word'))->get();
     }
 
     /**

@@ -9,5 +9,17 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Article extends Model
 {
-    protected $fillable = ['show', 'image', 'title', 'date', 'name', 'place1', 'place2'];
+    protected $fillable = ['index', 'image', 'title', 'date', 'name', 'place1', 'place2'];
+
+    public function scopeSearch($query, ?string $word)  {
+        if (!is_null($word)) {
+            return $query
+                ->where('title', 'like', '%' . $word . '%')
+                ->orwhere('date', 'like', '%' . $word . '%')
+                ->orwhere('name', 'like', '%' . $word . '%')
+                ->orwhere('place1', 'like', '%' . $word . '%')
+                ->orwhere('place2', 'like', '%' . $word . '%');
+        }
+        return $query;
+    }
 }
