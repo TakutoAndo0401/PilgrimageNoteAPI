@@ -13,4 +13,10 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::apiResource('articles', 'ArticleController');
+Route::middleware(['cors'])->group(function () {
+    Route::options('articles', function () {
+        return response()->json();
+    });
+
+    Route::apiResource('articles', 'ArticleController');
+});
