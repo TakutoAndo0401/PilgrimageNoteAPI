@@ -11,8 +11,4 @@
 |
 */
 
-if(config('app.env') === 'production'){
-    URL::forceScheme('https');
-}
-
-Route::get('/', 'ArticleController@index');
+Route::get('/api/articles', 'ArticleController@index');
