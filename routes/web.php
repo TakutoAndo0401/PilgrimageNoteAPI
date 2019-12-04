@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/api/articles', 'ArticleController@index');
+Route::get('/', 'ArticleController@index');
