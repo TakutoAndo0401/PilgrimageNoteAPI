@@ -99,7 +99,7 @@ class ArticleTableSeeder extends Seeder
                 'image'=>'https://pilgrimage-note-images.s3-ap-northeast-1.amazonaws.com/IMG_4092.jpg',
                 'title'=>'神奈川県立七里ガ浜高等学校',
                 'date'=>'2019年3月5日',
-                'name'=>'アニメ:青春ブタ野郎はバニーガール先輩の夢を見ないhttps://pilgrimagenote.web.app/',
+                'name'=>'アニメ:青春ブタ野郎はバニーガール先輩の夢を見ない',
                 'place1'=>'江ノ電『七里ケ浜』駅から徒歩1分',
                 'place2'=>'',
             ],
