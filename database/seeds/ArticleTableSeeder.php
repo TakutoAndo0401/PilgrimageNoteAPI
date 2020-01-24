@@ -146,7 +146,7 @@ class ArticleTableSeeder extends Seeder
                 'date'=>'2018年3月6日',
                 'name'=>'アニメ:ご注文はうさぎですか?',
                 'place1'=>'Colmar駅から徒歩17分',
-                'place2'=>'4 Rue du Chasseur, 68000 Colmar,',
+                'place2'=>'4 Rue du Chasseur, 68000 Colmar',
             ],
             [
                 'index'=>16,
@@ -155,7 +155,7 @@ class ArticleTableSeeder extends Seeder
                 'date'=>'2018年3月6日',
                 'name'=>'アニメ:ご注文はうさぎですか?',
                 'place1'=>'Colmar駅から徒歩13分',
-                'place2'=>'Quai de la Poissonnerie, 68000 Colmar,',
+                'place2'=>'Quai de la Poissonnerie, 68000 Colmar',
             ],
         ]);
     }
