@@ -108,7 +108,7 @@ class ArticleTableSeeder extends Seeder
                 'image'=>'https://pilgrimage-note-images.s3-ap-northeast-1.amazonaws.com/IMG_2284.jpg',
                 'title'=>'江の島大橋・江の島弁天橋',
                 'date'=>'2019年3月5日',
-                'name'=>'アニメ:青春ブタ野郎はバニーガール先輩の夢を見ない5話',
+                'name'=>'アニメ:青春ブタ野郎はバニーガール先輩の夢を見ない',
                 'place1'=>'小田急電鉄江ノ島線『片瀬江ノ島』から徒歩8分',
                 'place2'=>'江ノ電『江ノ島』駅から徒歩10分',
             ],
